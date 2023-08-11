@@ -1,0 +1,2 @@
+# treinando-modelo-openai
+ 
