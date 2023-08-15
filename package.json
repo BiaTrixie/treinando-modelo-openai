@@ -1,7 +1,7 @@
 {
-  "name": "treinando-modelo-openai",
+  "name": "fine-tuning-gpt",
   "version": "1.0.0",
-  "description": "",
+  "description": "GPT Fine-Tuning using Node.js",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -11,8 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.4.0",
-    "fs": "^0.0.1-security",
-    "openai": "^3.3.0"
+    "openai": "^3.2.1"
   }
 }
