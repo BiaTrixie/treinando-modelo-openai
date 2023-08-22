@@ -1,11 +1,10 @@
 import { openai } from './api.js'
-import { fileId } from './fileId.js'
 
 async function createFineTune() {
   try {
     const response = await openai.createFineTune({
-      training_file: fileId,
-      model: 'davinci:ft-personal-2023-03-31-01-09-15'
+      training_file: 'file-pkWhrJEvCTrIWi6Fj9oq99xi',
+      model: 'davinci'
     })
     console.log('response: ', response)
   } catch (err) {

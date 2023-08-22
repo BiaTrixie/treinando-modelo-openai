@@ -1,7 +1,7 @@
 {
-  "name": "fine-tuning-gpt",
+  "name": "gpt-app",
   "version": "1.0.0",
-  "description": "GPT Fine-Tuning using Node.js",
+  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {

@@ -3,8 +3,8 @@ import { openai } from './api.js'
 async function createCompletion() {
   try {
     const response = await openai.createCompletion({
-      model: 'davinci:ft-personal-2023-03-31-01-09-15',
-      prompt: 'What is Lens Protocol',
+      model: 'davinci:ft-personal-2023-08-22-16-44-22',
+      prompt: 'Perguntas sobre imobiliaria',
       max_tokens: 200
     })
     if (response.data) {
