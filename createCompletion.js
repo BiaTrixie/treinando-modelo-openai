@@ -3,7 +3,7 @@ const { openai } = require('./api.js');
 async function createCompletion() {
   try {
     const response = await openai.createCompletion({
-      model: 'davinci:ft-personal-2023-08-22-16-44-22',
+      model: 'seu-modelo-aqui',
       prompt: 'Perguntas sobre imobiliária e imóveis',
       max_tokens: 200
     });
