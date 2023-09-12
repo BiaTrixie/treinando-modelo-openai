@@ -3,7 +3,7 @@ const { openai } = require('./api.js');
 async function createFineTune() {
   try {
     const response = await openai.createFineTune({
-      training_file: 'file-TnCUarOG29FFq01AgwVpEOYE',
+      training_file: 'seu-file-id-aqui',
       model: 'davinci'
     });
     console.log('response: ', response);
